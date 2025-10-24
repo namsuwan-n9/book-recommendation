@@ -3,159 +3,170 @@
   }  */
 
 
-.bg-div2 {
-  background-color: #B5DDBB;
-}
+  .bg-div2 {
+    background-color: #B5DDBB;
+  }
 
 
-body {
-  background-color: #f5f2d7;
-}
+  body {
+    background-color: #f5f2d7;
+  }
 
 
-.nav {
-  background-color: #f5f2d7;
-}
-
-
-
-
-
-.p-1 {
-  text-indent: 2em; /* หรือใช้ 20px ก็ได้ตามความต้องการ */
-}
-
-
-
-h3 {
-  font-family: 'Pattaya', sans-serif;
-  font-weight: 400;
-  color: #50251C;
-}
-
-
-
-h5 {
-  font-family: 'Playpen Sans Thai', cursive;
-  font-weight: 550; /* Medium */
-}
-
-
-p {
-  font-family: 'Krub', sans-serif;
-  font-style: italic;
-  font-weight: 400;
-  color: #7C513E;
-}
-
-
-
-.playwrite {
-  font-family: 'Playwrite DE Grund Guides', cursive;
-  font-weight: 400;
-  color: #780903;
-}
-
-
-
-
-.noto-thai {
-  font-family: 'Noto Serif Thai', serif;
-  font-weight: 300; /* Light */
-}
-
-
-
-h1 {
-  font-family: 'Chonburi', cursive;
-  font-weight: 400; /* Regular */
-  color: #0F174F;
-  text-shadow: 4px 0px 6px rgba(0, 0, 0, 0.3);
-}
-
-
-h4 {
-  font-family: 'Kodchasan', sans-serif;
-  font-style: italic;
-  font-weight: 400;
-}
-
-
-.accordion-container {
-            max-width: 450px;
-            width: 100%;
-            margin: 0 auto;
-            padding: 2rem;
-            background: #fff;
-            box-shadow: var(--box-shadow);
-            border-radius: 8px;
-        }
-
-.accordion-item {
-            display: flex;
-            flex-direction: column;
-            padding: 0 1rem;
-            border-radius: 6px;
-            border: 1px solid var(--border-color);
-            box-shadow: var(--box-shadow);
-            background: var(--main-bg);
-            margin-bottom: 0.5em;
-        }
-        .accordion-item:nth-child(1) {
-            background-color: #E6BD9F;
-        }
-        .accordion-item:nth-child(2) {
-            background-color: rgba(0, 128, 0, 0.2);
-        }
-        .accordion-item:nth-child(3) {
-            background-color: rgba(0, 0, 255, 0.2);
-        }
-        .accordion-item:nth-child(4) {
-            background-color: rgba(255, 255, 0, 0.2);
-        }
-
-        .grid-card {
-      background-image: linear-gradient(to bottom, #ccc 1px, transparent 1px),
-                        linear-gradient(to right, #ccc 1px, transparent 1px);
-      background-size: 20px 20px;
-      background-color: #ffffff; /* สีพื้นคล้ายกระดาษ */
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      font-family: 'Segoe UI', sans-serif;
-    }
-    
-
-      .grid-card-container {
-  display: flex;
-  gap: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  align-items: stretch; /* ทำให้ทุก card สูงเท่ากัน */
-}
-
-
-.center-box {
-  display: flex;
-  flex-direction: column;       /* จัดเรียงแนวตั้ง */
-  justify-content: center;      /* จัดกลางแนวตั้ง */
-  align-items: center;          /* จัดกลางแนวนอน */
-  height: 100vh;                /* สูงเต็มหน้ากระดาษ */
-  text-align: center;
-}
-
-.profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;           /* ทำให้เป็นวงกลม */
-  object-fit: cover;            /* ตัดภาพให้พอดี */
-  border: 2px solid #ccc;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  margin-bottom: 5px;
-}
+  .nav {
+    background-color: #f5f2d7;
+  }
 
 
 
 
 
+  .p-1 {
+    text-indent: 2em;
+    /* หรือใช้ 20px ก็ได้ตามความต้องการ */
+  }
+
+
+
+  h3 {
+    font-family: 'Pattaya', sans-serif;
+    font-weight: 400;
+    color: #50251C;
+  }
+
+
+
+  h5 {
+    font-family: 'Playpen Sans Thai', cursive;
+    font-weight: 550;
+    /* Medium */
+  }
+
+
+  p {
+    font-family: 'Krub', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #7C513E;
+  }
+
+
+
+  .playwrite {
+    font-family: 'Playwrite DE Grund Guides', cursive;
+    font-weight: 400;
+    color: #780903;
+  }
+
+
+
+
+  .noto-thai {
+    font-family: 'Noto Serif Thai', serif;
+    font-weight: 300;
+    /* Light */
+  }
+
+
+
+  h1 {
+    font-family: 'Chonburi', cursive;
+    font-weight: 400;
+    /* Regular */
+    color: #0F174F;
+    text-shadow: 4px 0px 6px rgba(0, 0, 0, 0.3);
+  }
+
+
+  h4 {
+    font-family: 'Kodchasan', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+
+  .accordion-container {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: 8px;
+  }
+
+  .accordion-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--box-shadow);
+    background: var(--main-bg);
+    margin-bottom: 0.5em;
+  }
+
+  .accordion-item:nth-child(1) {
+    background-color: #E6BD9F;
+  }
+
+  .accordion-item:nth-child(2) {
+    background-color: rgba(0, 128, 0, 0.2);
+  }
+
+  .accordion-item:nth-child(3) {
+    background-color: rgba(0, 0, 255, 0.2);
+  }
+
+  .accordion-item:nth-child(4) {
+    background-color: rgba(255, 255, 0, 0.2);
+  }
+
+  .grid-card {
+    background-image: linear-gradient(to bottom, #ccc 1px, transparent 1px),
+      linear-gradient(to right, #ccc 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-color: #ffffff;
+    /* สีพื้นคล้ายกระดาษ */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+
+  .grid-card-container {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: stretch;
+    /* ทำให้ทุก card สูงเท่ากัน */
+  }
+
+
+  .center-box {
+    display: flex;
+    flex-direction: column;
+    /* จัดเรียงแนวตั้ง */
+    justify-content: center;
+    /* จัดกลางแนวตั้ง */
+    align-items: center;
+    /* จัดกลางแนวนอน */
+    height: 100vh;
+    /* สูงเต็มหน้ากระดาษ */
+    text-align: center;
+  }
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* ทำให้เป็นวงกลม */
+    object-fit: cover;
+    /* ตัดภาพให้พอดี */
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+  }
