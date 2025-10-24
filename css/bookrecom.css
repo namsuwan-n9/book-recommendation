@@ -114,6 +114,48 @@ h4 {
             background-color: rgba(255, 255, 0, 0.2);
         }
 
+        .grid-card {
+      background-image: linear-gradient(to bottom, #ccc 1px, transparent 1px),
+                        linear-gradient(to right, #ccc 1px, transparent 1px);
+      background-size: 20px 20px;
+      background-color: #ffffff; /* สีพื้นคล้ายกระดาษ */
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      font-family: 'Segoe UI', sans-serif;
+    }
+    
+
+      .grid-card-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: stretch; /* ทำให้ทุก card สูงเท่ากัน */
+}
+
+
+.center-box {
+  display: flex;
+  flex-direction: column;       /* จัดเรียงแนวตั้ง */
+  justify-content: center;      /* จัดกลางแนวตั้ง */
+  align-items: center;          /* จัดกลางแนวนอน */
+  height: 100vh;                /* สูงเต็มหน้ากระดาษ */
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;           /* ทำให้เป็นวงกลม */
+  object-fit: cover;            /* ตัดภาพให้พอดี */
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 5px;
+}
+
+
 
 
 
