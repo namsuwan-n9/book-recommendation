@@ -160,15 +160,12 @@
   }
 
   .profile-pic {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    /* ทำให้เป็นวงกลม */
-    object-fit: cover;
-    /* ตัดภาพให้พอดี */
-    border: 2px solid #ccc;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 5px;
+    max-width: 250px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
   }
 
 
